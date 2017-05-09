@@ -1,0 +1,96 @@
+{
+  "@graph" : [ {
+    "@id" : "http://data.europeana.eu/item/9200355/BibliographicResource_3000117486843",
+    "@type" : "edm:ProvidedCHO",
+    "format" : {
+      "@language" : "en",
+      "@value" : "[OCR confidence] 0,907798"
+    },
+    "language" : "de",
+    "title" : "Deutsches Nachrichtenbüro",
+    "type" : [ "Newspaper Title", {
+      "@language" : "en",
+      "@value" : "Newspaper"
+    }, {
+      "@language" : "en",
+      "@value" : "Serial"
+    } ],
+    "isPartOf" : "http://data.theeuropeanlibrary.org/Collection/a0620",
+    "issued" : "1936-04-23 - 1940-05-31",
+    "edm:type" : "TEXT"
+  }, {
+    "@id" : "http://data.europeana.eu/item/9200355/BibliographicResource_3000117486843#aggregation",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "http://data.theeuropeanlibrary.org/BibliographicResource/3000117486843",
+    "dataProvider" : "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
+    "isShownAt" : "http://www.theeuropeanlibrary.org/tel4/newspapers/title/3000117486843",
+    "object" : "http://port2.theeuropeanlibrary.org/fcgi-bin/iipsrv2.fcgi?FIF=node-3/image/SBB/Deutsches_Nachrichtenbüro/1937/04/26/00517_1/ISSUE_19370426_00517_1-0001.jp2&wid=200&cvt=jpg",
+    "provider" : {
+      "@language" : "en",
+      "@value" : "The European Library"
+    },
+    "rights" : "http://creativecommons.org/publicdomain/mark/1.0/"
+  }, {
+    "@id" : "http://port2.theeuropeanlibrary.org/fcgi-bin/iipsrv2.fcgi?FIF=node-3/image/SBB/Deutsches_Nachrichtenbüro/1937/04/26/00517_1/ISSUE_19370426_00517_1-0001.jp2&wid=200&cvt=jpg",
+    "@type" : "edm:WebResource",
+    "rights" : "http://creativecommons.org/publicdomain/mark/1.0/"
+  }, {
+    "@id" : "http://www.theeuropeanlibrary.org/tel4/newspapers/title/3000117486843",
+    "@type" : "edm:WebResource",
+    "rights" : "http://creativecommons.org/publicdomain/mark/1.0/"
+  } ],
+  "@context" : {
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights",
+      "@type" : "@id"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "object" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/object",
+      "@type" : "@id"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "isPartOf" : {
+      "@id" : "http://purl.org/dc/terms/isPartOf"
+    },
+    "cc" : "http://creativecommons.org/ns#",
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "odrl" : "http://www.w3.org/ns/odrl/2/",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}
